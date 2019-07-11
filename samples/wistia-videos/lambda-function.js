@@ -30,7 +30,7 @@ const cleanup = res =>
     };
   });
 
-exports.handler = function(event, context, callback) {
+exports.handle = function(event, context, callback) {
   request({
     method: "GET",
     hostname: `api.wistia.com`,
